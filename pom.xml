@@ -14,7 +14,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.gaopu</groupId>
-	<artifactId>gaopu-springboot-leran</artifactId>
+	<artifactId>gaopu-springboot-learn</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>gaopu-springboot-lean</name>
 	<description>Demo project for Spring Boot</description>
