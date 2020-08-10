@@ -1,7 +1,7 @@
 eureka:
   client:
     service-url:
-      defaultZone: http://eurekaServerA:8761/eureka
+      defaultZone: http://eurekaServerA:8761/eureka,http://eurekaServerB:8762/eureka
 
 spring:
   application:
