@@ -3,13 +3,13 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>gaopu-springboot-learn</artifactId>
-        <groupId>com.gaopu</groupId>
+        <artifactId>geekgao-springboot-learn</artifactId>
+        <groupId>cn.geekgao</groupId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>gaopu-eureka-client</artifactId>
+    <artifactId>geekgao-eureka-client</artifactId>
 
     <dependencies>
         <dependency>

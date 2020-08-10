@@ -1,0 +1,8 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eurekaServerA:8761/eureka
+
+spring:
+  application:
+    name: geekgao-eureka-client
