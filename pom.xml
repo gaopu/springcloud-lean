@@ -14,9 +14,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>cn.geekgao</groupId>
-	<artifactId>geekgao-springboot-learn</artifactId>
+	<artifactId>geekgao-springcloud-learn</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>geekgao-springboot-learn</name>
+	<name>geekgao-springcloud-learn</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
