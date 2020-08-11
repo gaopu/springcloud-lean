@@ -10,10 +10,6 @@ public class GeekGaoEurekaClient {
 
 	public static void main(String[] args) throws InterruptedException {
 		SpringApplication.run(GeekGaoEurekaClient.class, args);
-
-		while (true) {
-			Thread.sleep(1000);
-		}
 	}
 
 }
