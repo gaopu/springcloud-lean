@@ -6,3 +6,6 @@ eureka:
 spring:
   application:
     name: geekgao-eureka-provider
+
+server:
+  port: 9090

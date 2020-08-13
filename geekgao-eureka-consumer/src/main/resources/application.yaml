@@ -6,3 +6,6 @@ eureka:
 spring:
   application:
     name: geekgao-eureka-consumer
+
+server:
+  port: 8080
