@@ -5,4 +5,4 @@ eureka:
 
 spring:
   application:
-    name: geekgao-eureka-client
+    name: geekgao-eureka-consumer

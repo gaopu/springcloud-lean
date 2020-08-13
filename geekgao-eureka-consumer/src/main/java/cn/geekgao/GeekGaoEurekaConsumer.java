@@ -6,10 +6,10 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 @SpringBootApplication
 @EnableEurekaClient
-public class GeekGaoEurekaClient {
+public class GeekGaoEurekaConsumer {
 
 	public static void main(String[] args) throws InterruptedException {
-		SpringApplication.run(GeekGaoEurekaClient.class, args);
+		SpringApplication.run(GeekGaoEurekaConsumer.class, args);
 	}
 
 }
