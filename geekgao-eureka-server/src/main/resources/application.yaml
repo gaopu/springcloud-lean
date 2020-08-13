@@ -3,13 +3,14 @@ spring:
     name: eureka-Server-HA
 
 ---
-
 eureka:
   instance:
     hostname: eurekaServerA
   client:
     service-url:
       defaultZone: http://eurekaServerB:8762/eureka
+    register-with-eureka: true
+    fetch-registry: true
 server:
   port: 8761
 spring:
@@ -23,6 +24,8 @@ eureka:
   client:
     service-url:
       defaultZone: http://eurekaServerA:8761/eureka
+    register-with-eureka: true
+    fetch-registry: true
 server:
   port: 8762
 spring:
