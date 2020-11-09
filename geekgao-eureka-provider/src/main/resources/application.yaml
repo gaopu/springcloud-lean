@@ -2,10 +2,17 @@ eureka:
   client:
     service-url:
       defaultZone: http://eurekaServerA:8761/eureka,http://eurekaServerB:8762/eureka
-
 spring:
   application:
     name: geekgao-eureka-provider
 
+---
+spring:
+  profiles: providerA
 server:
-  port: 9090
+  port: 9898
+---
+spring:
+  profiles: providerB
+server:
+  port: 9899
